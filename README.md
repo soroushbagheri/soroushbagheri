@@ -1,112 +1,170 @@
-# Hi, I'm Soroush Bagheri 👋
+# Hi there, I'm Soroush Bagheri 👋
 
-**AI Researcher | NLP & Fairness Specialist | PhD Applicant**
+[![Location](https://img.shields.io/badge/Location-Stockholm%2C%20Sweden-blue)](https://github.com/soroushbagheri)
+[![Focus](https://img.shields.io/badge/Focus-AI%20Fairness%20%26%20NLP-green)](https://github.com/soroushbagheri)
+[![Status](https://img.shields.io/badge/Status-PhD%20Applicant-orange)](https://github.com/soroushbagheri)
 
-I'm passionate about building fair and interpretable AI systems, with a focus on bias detection in multilingual language models and explainable AI for responsible machine learning.
+## 👨‍🔬 About Me
 
-## 🎯 Research Interests
+I'm a **Master's graduate in AI/NLP** with a focus on **bias detection, fairness auditing, and multilingual language models**. Currently applying for **PhD positions** and co-founding an AI startup focused on legal assistance solutions.
 
-- **Bias & Fairness in AI**: Detecting and mitigating biases in large language models
-- **Multilingual NLP**: Persian and multilingual natural language processing
-- **Explainable AI (XAI)**: Interpretability methods (SHAP, LIME, IG) for model transparency
-- **Gender & Social Bias**: Computational analysis of stereotypes in AI systems
-- **Vision-Language Models**: Multimodal AI and medical imaging applications
+- 🔬 **Research Interests**: Bias in LLMs, Gender Fairness, Multilingual NLP, Vision-Language Models, Explainable AI
+- 🏛️ **Based in**: Stockholm, Sweden
+- 🎓 **Education**: Master's in AI/NLP | Applying for PhD positions
+- 💼 **Current Work**: Co-founder at Relational (AI/Data Solutions)
+- 📝 **Master's Thesis**: Bias Detection and Mitigation in Language Models
 
-## 📚 Current Focus
+## 🔬 Research Focus Areas
 
-🎓 **PhD Applications**: Applying to programs in AI/NLP with focus on fairness and bias mitigation
+```python
+research_interests = {
+    "primary": [
+        "Bias Detection & Fairness in AI",
+        "Gender Bias in Large Language Models",
+        "Multilingual & Low-Resource NLP",
+        "Explainable AI (XAI) Methods"
+    ],
+    "methodologies": [
+        "Perplexity-based Bias Evaluation",
+        "Probing & Perturbation Analysis",
+        "Fairness Metrics (CB, APX, Stereotype Score)",
+        "Interpretability (SHAP, LIME, Integrated Gradients)"
+    ],
+    "applications": [
+        "Clinical/Medical AI",
+        "Legal AI Systems",
+        "Vision-Language Models",
+        "Cross-lingual Transfer Learning"
+    ]
+}
+```
 
-🔬 **Research Projects**:
-- Bias detection in Persian LLMs using perplexity-based metrics
-- Gender bias quantification and editing methods in language models
-- Fairness auditing frameworks for legal AI systems
+## 🛠️ Technical Skills
 
-💻 **Technical Development**: Building MLOps pipelines and exploring LLM interpretability
+### Programming & ML Frameworks
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-Advanced-EE4C2C?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Intermediate-FF6F00?logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Advanced-F7931E?logo=scikit-learn&logoColor=white)
 
-## 🛐️ Technical Stack
+### NLP & Language Models
+- **Transformers** (Hugging Face), **LLaMA**, **BERT**, **GPT** architectures
+- **Multilingual Models**: mBERT, XLM-R, mT5
+- **Persian/Farsi NLP**: ParsBERT, Persian-LLaMA
+- **Bias Detection**: StereoSet, WinoBias, BBQ benchmarks
 
-**Languages**: Python, R, SQL
+### Computer Vision & Multimodal AI
+- **Vision-Language Models**: CLIP, BLIP, medical imaging applications
+- **CNNs**: ResNet, VGG, custom architectures
+- **Image Classification** & **Object Detection**
 
-**ML/DL Frameworks**: PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn
+### Data Science & Analysis
+- **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Plotly**
+- Statistical analysis, hypothesis testing, A/B testing
+- Experiment tracking (Weights & Biases, TensorBoard)
 
-**NLP Tools**: NLTK, spaCy, Gensim, LangChain
+### Development Tools
+![Git](https://img.shields.io/badge/Git-Expert-F05032?logo=git&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-Advanced-008080?logo=latex&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Advanced-F37626?logo=jupyter&logoColor=white)
 
-**XAI Libraries**: SHAP, LIME, Integrated Gradients, Captum
+## 📚 Featured Research Projects
 
-**Data Science**: pandas, numpy, matplotlib, seaborn
+### 🌟 [Persian LLM Bias Detection](https://github.com/soroushbagheri/Persian_LLMBias)
+Comprehensive bias evaluation of multilingual LLMs (LLaMA, Persian-LLaMA) using perplexity-based metrics and translated StereoSet benchmark.
+- **Methods**: Contextual Bias scoring, APX metrics, cross-lingual analysis
+- **Findings**: Persian-adapted models exhibit distinct bias patterns compared to multilingual variants
+- **Impact**: Fairness auditing for Persian NLP deployments
 
-**Tools**: Git, Docker, Jupyter, LaTeX, Overleaf
+### 🎵 [Music Classification with Spectrograms](https://github.com/soroushbagheri/music-classification-with-spectrograms)
+Deep CNN-based music genre classification using mel-spectrogram representations (87.3% accuracy across 10 genres).
+- **Architecture**: Custom CNN + Transfer Learning (VGG, ResNet)
+- **Features**: Audio augmentation, real-time inference
+- **Applications**: Music recommendation systems, playlist generation
 
-## 💡 Featured Projects
+### 🧬 [Bioinformatics & Genomics](https://github.com/soroushbagheri/bioinformatics-genomics)
+Computational analysis of DNA sequences including origin of replication (oriC) detection and genome annotation.
+- **Algorithms**: GC skew analysis, pattern matching, dynamic programming
+- **Tools**: BioPython, sequence alignment, phylogenetic analysis
+- **Results**: 95% accuracy in oriC prediction within 500bp
 
-### [🧬 Bioinformatics & Genomics](https://github.com/soroushbagheri/bioinformatics-genomics)
-Computational biology projects including bacterial genome analysis and origin of replication detection using GC skew analysis.
+### 🌐 [Language Identifier](https://github.com/soroushbagheri/language_identifier)
+ML-based multi-language detection system using character n-grams and neural networks (96.5% accuracy, 10+ languages).
+- **Features**: Character-level CNNs, n-gram analysis
+- **Performance**: Real-time inference, robust to code-mixed text
 
-### [🎯 Persian LLM Bias Detection](https://github.com/soroushbagheri/Persian_LLMBias)
-Comprehensive study on social bias in Persian language models (LLaMA, Persian-LLaMA) using adapted StereoSet methodology and perplexity-based metrics.
+## 📊 GitHub Statistics
 
-### [🌍 Language Identifier](https://github.com/soroushbagheri/language_identifier)
-Multilingual language identification system with Docker deployment and comprehensive documentation.
+<div align="center">
 
-### [🎵 Music Classification](https://github.com/soroushbagheri/music-classification-with-spectrograms)
-Deep learning for audio genre classification using CNN architectures and mel-spectrogram representations.
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=soroushbagheri&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/soroushbagheri)
 
-### [💬 NLP Course Projects](https://github.com/soroushbagheri/NLP_1)
-Foundational and advanced NLP implementations covering text classification, word embeddings, sequence models, and transformers.
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soroushbagheri&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/soroushbagheri)
 
-## 📝 Selected Publications & Work
+</div>
 
-- Master's thesis on **Bias Detection and Fairness in AI Systems**
-- Research on **Gender Bias Editing Methods** in language models
-- Vision-language model **fine-tuning for medical imaging**
-- Fairness **auditing frameworks for legal AI**
+## 🎓 Academic Background
 
-## 🎓 Education
+### Education
+- **Master's Degree** in AI/Natural Language Processing
+- **PhD Applications** in progress (2026): Focus on AI fairness, bias detection, and multilingual NLP
+- Target institutions: Umeå University, Karolinska Institute, and other leading research groups
 
-**Master of Science** in AI/Machine Learning *(Completed)*
-- Focus: NLP, Fairness, Bias Detection
-- Thesis: Bias and Fairness in Language Models
+### Research Experience
+- **Master's Thesis**: Gender bias detection and editing methods in language models
+- **Fairness Auditing**: Legal AI systems bias evaluation
+- **Vision-Language Models**: Fine-tuning for medical imaging applications
+- **Probing Studies**: Interpretability of multilingual representations
 
-**PhD Applications** *(In Progress)*
-- Applying to: Umeå University, KI Karolinska Institute, and others
-- Research Focus: Fairness-aware NLP, Multilingual Bias Detection
+## 💼 Professional Experience
 
-## 🔬 Research Experience
+### Relational (Current)
+**Co-founder | AI/Data Solutions**
+- Developing AI-powered legal assistance platform
+- Building NLP pipelines for document analysis
+- Implementing fairness auditing tools
 
-**Relational** - AI/Data Solutions *(Current)*
-- Co-founding role focused on AI legal assistance
-- Fairness auditing and bias detection systems
+### Research Collaborations
+- Vision-language model applications in clinical settings
+- Cross-lingual bias transfer studies
+- Multilingual model evaluation frameworks
 
-**Research Projects**:
-- Gender bias probing and perturbation-based evaluation
-- Multilingual language model analysis
-- Clinical AI applications with vision-language models
+## 📝 Publications & Presentations
 
-## 🏆 Skills & Expertise
+*PhD application materials include research proposals on:*
+- Bias mitigation strategies for low-resource languages
+- Fairness-aware fine-tuning of multilingual models
+- Interpretability methods for bias detection
+- Construction-sensitive linguistic analysis in Persian
 
-**Machine Learning**: Deep neural networks, transformer architectures, model interpretability
+## 🎯 Current Goals
 
-**Natural Language Processing**: Multilingual models, bias detection, text classification, language generation
+- 🎓 **Secure PhD position** in AI Fairness/NLP (Fall 2026)
+- 🔬 **Publish research** on Persian LLM bias detection
+- 🚀 **Launch Relational** AI legal platform
+- 🤝 **Collaborate** with fairness researchers worldwide
+- 📚 **Contribute** to open-source fairness tools
 
-**Fairness & Ethics**: Bias measurement, fairness metrics, demographic parity, equalized odds
+## 📬 Connect With Me
 
-**Research Methods**: Experimental design, statistical analysis, academic writing, literature review
+[![GitHub](https://img.shields.io/badge/GitHub-soroushbagheri-181717?logo=github)](https://github.com/soroushbagheri)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/soroushbagheri)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:soroush@example.com)
 
-**Software Engineering**: Clean code, version control, documentation, reproducible research
+### Research Collaboration
 
-## 💬 Let's Connect!
-
-- 📧 Open to PhD collaborations and research discussions
-- 👥 Interested in fairness, bias, and multilingual NLP
-- 🌐 Based in Stockholm, Sweden
+I'm actively seeking:
+- **PhD supervision** in AI Fairness, Bias Detection, or Multilingual NLP
+- **Research collaborations** on fairness in low-resource languages
+- **Industry partnerships** for responsible AI deployment
+- **Open-source contributions** to bias detection tools
 
 ---
 
-*Building AI systems that are not only powerful but also fair, transparent, and responsible.*
+<div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=soroushbagheri&color=blue&style=flat-square)
+**"Building fair and inclusive AI systems for multilingual contexts"**
 
-<!--
-**Note**: This profile showcases research and development work in AI/NLP with emphasis on fairness and bias detection.
-For collaboration inquiries, please reach out through GitHub issues in relevant repositories.
--->
+⭐️ *Feel free to explore my repositories and reach out for collaborations!* ⭐️
+
+</div>
